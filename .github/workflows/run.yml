@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "あくしょんず"
-      - run: ./hello-test.sh
+      - run: ./hello_test.sh
