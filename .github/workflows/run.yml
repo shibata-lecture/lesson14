@@ -1,0 +1,8 @@
+name: actions-trial
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "あくしょんず"
+      - run: ./hello-test.sh
